@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Post from './Post';
 
 function App() {
   const [count, setCount] = useState(4)
@@ -15,10 +16,13 @@ function App() {
 
   return (
     <>
-    <button onClick={decrement}>-</button>
-    <span>{count}</span>
-    <span>{theme}</span>
-    <button onClick={increment}>+</button>
+    <div style={{marginBottom:'30px'}}>
+      <button onClick={decrement}>-</button>
+      <span>{count}</span>
+      <span>{theme}</span>
+      <button onClick={increment}>+</button>
+    </div>
+    <Post />
     </>
   )
 }
