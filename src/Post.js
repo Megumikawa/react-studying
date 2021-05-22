@@ -25,7 +25,8 @@ export default function Post() {
         <button onClick={() => setresourceType('users')}>Users</button>
         <button onClick={() => setresourceType('comments')}>Comments</button>
       </div>
-      <hi>{resourceType}</hi>
+      <hi >{resourceType}</hi>
+      <div style={{marginBottom: '30px'}}></div>
       {/* {items.map(item => {
         return <pre>{JSON.stringify(item)}</pre>
       })} */}

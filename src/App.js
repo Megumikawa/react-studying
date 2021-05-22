@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Post from './Post';
+import Memo from './Memo';
 
 function App() {
   const [count, setCount] = useState(4)
@@ -23,6 +24,7 @@ function App() {
       <button onClick={increment}>+</button>
     </div>
     <Post />
+    <Memo />
     </>
   )
 }
