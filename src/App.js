@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Post from './Post';
 import Memo from './Memo';
-import LeareUseRed from './LeareUseRef';
+import LearnUseRed from './LearnUseRef';
 
 function App() {
   const [count, setCount] = useState(4)
@@ -29,7 +29,7 @@ function App() {
     <div style={{borderBottom:'1px solid', margin:'20px 0'}}></div>
     <Memo />
     <div style={{borderBottom:'1px solid', margin:'20px 0'}}></div>
-    <LeareUseRed />
+    <LearnUseRed />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function LeareUseRef() {
+export default function LearnUseRef() {
   const [name, setName] =useState('')
   return (
     <>
