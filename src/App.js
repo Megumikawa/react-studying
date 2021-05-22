@@ -17,13 +17,15 @@ function App() {
 
   return (
     <>
-    <div style={{marginBottom:'30px'}}>
+    <div>
       <button onClick={decrement}>-</button>
       <span>{count}</span>
       <span>{theme}</span>
       <button onClick={increment}>+</button>
     </div>
+    <div style={{borderBottom:'1px solid', margin:'30px 0'}}></div>
     <Post />
+    <div style={{borderBottom:'1px solid', margin:'30px 0'}}></div>
     <Memo />
     </>
   )
