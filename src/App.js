@@ -33,6 +33,7 @@ function App() {
     <LearnUseRed />
     <div style={{borderBottom:'1px solid', margin:'20px 0'}}></div>
     <LearnUseContext />
+    <div style={{borderBottom:'1px solid', margin:'20px 0'}}></div>
     </>
   )
 }
